@@ -36,9 +36,13 @@ D(
   TXT("_updown.status", "updown-page=p/ysh0m"),
 
   // Fastmail - https://www.fastmail.help/hc/en-us/articles/1500000280261
-  MX("@", 10, "in1-smtp.messagingengine.com.", TTL(14400)),
-  MX("@", 20, "in2-smtp.messagingengine.com.", TTL(14400)),
-
+  MX("@", 10, "in1-smtp.messagingengine.com."),
+  MX("@", 20, "in2-smtp.messagingengine.com."),
+  TXT("@", "v=spf1 include:spf.messagingengine.com include:_spf.google.com include:spf.protection.outlook.com ?all"),
+  CNAME("fm1._domainkey", "fm1.osoc.be.dkim.fmhosted.com."),
+  CNAME("fm2._domainkey", "fm2.osoc.be.dkim.fmhosted.com."),
+  CNAME("fm3._domainkey", "fm3.osoc.be.dkim.fmhosted.com."),
+  
   TXT("@", "google-site-verification=DPZt0TubKlpnBoeS379uL7w7QG5eviALnXhQRTF2TS8"),
   TXT("_github-challenge-osoc22-org", "eb1ed9ede8"),
   TXT("_github-challenge-osoc21-org", "ff9ba1ccbb"),
