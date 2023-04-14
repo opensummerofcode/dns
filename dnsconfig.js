@@ -21,8 +21,8 @@ D(
   A("2012", "37.139.14.192"),
   A("2013", "37.139.14.192"),
   A("2014", "37.139.14.192"),
-  A("2015", "37.139.14.192"),
-  A("2016", "37.139.14.192"),
+  CNAME("2015", "osoc15.github.io.", TTL(43200)), // GitHub Pages
+  CNAME("2016", "osoc16.github.io.", TTL(43200)), // GitHub Pages
   CNAME("2017", "osoc17.github.io.", TTL(43200)), // GitHub Pages
   CNAME("2018", "osoc18.github.io.", TTL(43200)), // GitHub Pages
   CNAME("2019", "redirect.openknowledge.be.", TTL(43200)),
@@ -49,8 +49,10 @@ D(
   TXT("_github-challenge-osoc20-org", "395e0c9ad8"),
   TXT("_github-challenge-opensummerofcode-org", "c3a84b2b80"),
   TXT("_github-pages-challenge-opensummerofcode", "d199c379417ca92a0d1e3eef15b6ec"),
-  TXT("_github-pages-challenge-oSoc18.2018", "aa59f3ad2d1e59ed264c0c6e797144"),
+  TXT("_github-pages-challenge-oSoc15.2015", "dad24f6c94cf0185af31fedd3c90c8"),
+  TXT("_github-pages-challenge-osoc16.2016", "726de382b570e9239a4899f1272e16"),
   TXT("_github-pages-challenge-oSoc17.2017", "d0f1bfbd3d08a145671dfa4c71471b"),
+  TXT("_github-pages-challenge-oSoc18.2018", "aa59f3ad2d1e59ed264c0c6e797144"),
   TXT("_vercel", "vc-domain-verify=pleasant-procedures.osoc.be,bb2ed95aab71d6163a58"),
 
   // Projects 2019
