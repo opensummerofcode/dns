@@ -49,6 +49,8 @@ D(
   TXT("_github-challenge-osoc20-org", "395e0c9ad8"),
   TXT("_github-challenge-opensummerofcode-org", "c3a84b2b80"),
   TXT("_github-pages-challenge-opensummerofcode", "d199c379417ca92a0d1e3eef15b6ec"),
+  TXT("_github-pages-challenge-oSoc18.2018", "aa59f3ad2d1e59ed264c0c6e797144"),
+  TXT("_github-pages-challenge-oSoc17.2017", "d0f1bfbd3d08a145671dfa4c71471b"),
   TXT("_vercel", "vc-domain-verify=pleasant-procedures.osoc.be,bb2ed95aab71d6163a58"),
 
   // Projects 2019
