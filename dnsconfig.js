@@ -23,8 +23,8 @@ D(
   A("2014", "37.139.14.192"),
   A("2015", "37.139.14.192"),
   A("2016", "37.139.14.192"),
-  A("2017", "37.139.14.192"),
-  A("2018", "37.139.14.192"),
+  CNAME("2017", "osoc17.github.io.", TTL(43200)), // GitHub Pages
+  CNAME("2018", "osoc18.github.io.", TTL(43200)), // GitHub Pages
   CNAME("2019", "redirect.openknowledge.be.", TTL(43200)),
   CNAME("2020", "redirect.openknowledge.be.", TTL(43200)),
 
